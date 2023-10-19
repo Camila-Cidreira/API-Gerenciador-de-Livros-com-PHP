@@ -1,7 +1,13 @@
 <?php 
-    define('HOST','Localhost');
-    define('USER', 'root');
-    define('PASS','');
-    define('BASE', 'cadastro');
+    $host = "localhost";
+    $usuario= "root";
+    $senha="";
+    $bd="cadastro";
 
-    $conn = new MySqli(HOST, USER, PASS, BASE);
+    $conn = new mysqli($host, $usuario, $senha, $bd);
+
+    if($conn-> connect_errno){
+        echo "falha conexao";
+    }
+
+?>

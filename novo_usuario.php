@@ -1,7 +1,6 @@
 <h1>Novo Usuário</h1>
-<form action="?page=salvar" method="POST">
-<form type="hidden" name="acao" value="cadastrar">
-<form text-align="center">
+<form action="salvar_usuario.php" method="POST">
+    <input type="hidden" name="acao" value="cadastrar"/>
     <div class="mb-3">
         <label>Nome</label>
         <input type="text" name="nome" class="form-control">
