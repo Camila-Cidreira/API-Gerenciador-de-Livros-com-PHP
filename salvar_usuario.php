@@ -5,11 +5,11 @@
             $nome = $_POST["nome"];
             $email = $_POST["email"];
             $senha = $_POST["senha"];
-           
-            $sql = "INSERT INTO usuarios(nome, email, senha) VALUES('{$nome}','{$email}', '{$senha}')";
 
+            $sql = "INSERT INTO usuarios(nome, email, senha) VALUES('{$nome}','{$email}', '{$senha}')";
             $res = $conn->query($sql);
 
+        break;
             if($res==true){
                 print "<script>alert('usuario cadastrado')</script>";
                 print "<script>location.href='listar_usuario.php'</script>";
@@ -18,11 +18,11 @@
 
         case 'editar':
             //code...
-            break;
-
+        break;
         case 'excluir':
             //code...
-            break;
+        break;
+            
 
 
     }
