@@ -13,6 +13,7 @@
             <span><?php echo $row->nome; ?></span>
             <span><?php echo $row->email; ?></span>
             <span><?php echo $row->senha; ?></span>
+     
         </div>
 <?php }
     }else{
