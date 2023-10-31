@@ -1,13 +1,15 @@
 <?php 
-    $host = "localhost";
+
+    $hostname = "localhost";
     $usuario= "root";
     $senha="";
-    $bd="cadastro";
-
-    $conn = new mysqli($host, $usuario, $senha, $bd);
+    $bancodedados="cadastro";
+    $port="3307";
+    
+    $conn = new mysqli($host, $usuario, $senha, $bancodedados, $port);
 
     if($conn-> connect_errno){
-        echo "falha conexao";
+        echo "falha ao conectar: (". $mysqli->connect_errno.")". $mysqli->connect_err;
     }
 
 ?>
