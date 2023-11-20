@@ -1,0 +1,18 @@
+Docente: Heleno Cardoso
+
+Discentes:
+1-Camila Andrade Cidreira
+2-Yuri Fernandes
+
+Orientações para usar o aplicativo:
+
+1-Deve ser instalado o Xampp no computador local para usar o PhpmyAdmin
+2-Pasta deve ser criada dentro da pasta computador/opt/lampp/htdocs
+3-Deve ser criado o banco de dados "Cadastro" no PhpmyAdmin
+4-Deve ser criada a tabela usuarios no PhpmyAdmin
+5-id` int(10) UNSIGNED NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL
+  
+6- Depois de criar o banco de dados no PhpmyAdmin pode rodar o código da biblioteca.
