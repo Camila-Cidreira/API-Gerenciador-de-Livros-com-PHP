@@ -1,13 +1,15 @@
 Docente: Heleno Cardoso
+Dsiciplina: Desenvolvimento Web em HTML5, CSS, JavaScript e PHP.
 
 Discentes:
 1-Camila Andrade Cidreira
 2-Yuri Fernandes
+3-Rene de Souza Santos Junior 
 
 Orientações para usar o aplicativo:
 
 1-Deve ser instalado o Xampp no computador local para usar o PhpmyAdmin
-2-Pasta deve ser criada dentro da pasta computador/opt/lampp/htdocs
+2-O código deve ser salvo em uma pasta dentro do endereço: computador/opt/lampp/htdocs
 3-Deve ser criado o banco de dados "Cadastro" no PhpmyAdmin
 4-Deve ser criada a tabela usuarios no PhpmyAdmin
 5-id` int(10) UNSIGNED NOT NULL,
@@ -15,4 +17,4 @@ Orientações para usar o aplicativo:
   `email` varchar(255) NOT NULL,
   `senha` varchar(255) NOT NULL
   
-6- Depois de criar o banco de dados no PhpmyAdmin pode rodar o código da biblioteca.
+6- Depois de criar o banco de dados no PhpmyAdmin pode rodar o código.
