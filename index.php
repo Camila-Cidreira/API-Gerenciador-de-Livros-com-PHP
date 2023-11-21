@@ -10,7 +10,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="novo_usuario.php" target="_blank">Cadastro</a>
+            <a class="navbar-brand" href="cadastro.php" target="_blank">Cadastro</a>
             <a class="navbar-brand" href="listar_usuario.php" target="_blank">Usuarios</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" 
             aria-expanded="false" aria-label="Alterna navegação">
@@ -26,7 +26,7 @@
                         
                             switch(@$_REQUEST["page"]){
                                 case "Cadastro":
-                                    include("novo_usuario.php");
+                                    include("cadastro.php");
 
                                 break;
                                 case "salvar":
@@ -48,6 +48,16 @@
     </body>
     
 </html>  
+
+
+
+                   
+        
+
+
+
+                   
+        
 
 
 
